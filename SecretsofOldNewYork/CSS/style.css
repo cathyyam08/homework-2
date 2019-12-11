@@ -1,0 +1,128 @@
+p {
+  margin: 2px;
+}
+
+/* TEACHER REMOVED */
+/* .topimage img {
+  width: 100%;
+  margin-top: -15%;
+  margin-bottom: 25px;
+} */
+
+/* TEACHER ADDED */
+/*
+ * height - set the container height
+ * background-image - set the background image to this
+ * background-repeat - do not repeat the image more than once
+ * background-size - cover the entire container with the image
+ * background-position - center the image
+*/
+
+.topimage {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 25px;
+  background-image: url(../images/secretsofoldnewyork.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header p {
+  font-family: sans-serif;
+  margin-left: 2%;
+  color: #484848;
+}
+
+.header .category {
+  font-size: 10px;
+}
+
+.header .title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header .description {
+  font-size: 17px;
+  margin-right: 45%;
+  margin-bottom: 25px;
+}
+
+.subheader p{
+  font-family: sans-serif;
+  margin-left: 2%;
+  margin-right: 55%;
+  color: #484848;
+}
+
+.subheader .title {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.subheader .description {
+  font-size: 14px;
+  margin-bottom: 25px;
+  margin-right: 60%;
+  margin-bottom: 25px;
+}
+
+.card {
+  margin-left: 2%;
+}
+
+.card  img {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.card p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  color: #484848;
+}
+
+.card .borough {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #767676;
+}
+
+.card .activity {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  margin-right: 85%;
+}
+
+.card .price {
+  font-size: 11px;
+  margin-bottom: 2px;
+}
+
+.card .rating {
+  font-size: 11px;
+  color: #00A699;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.card .numberofreviews {
+  font-size: 11px;
+  margin-bottom: 20px;
+  color: #767676;
+}
+
+.showall1 {
+  color: #00A699;
+  font-size: 14px;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+  font-weight: bold;
+  margin-left: 2%;
+}
