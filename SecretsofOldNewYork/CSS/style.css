@@ -1,3 +1,14 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
 p {
   margin: 2px;
 }
@@ -28,8 +39,11 @@ p {
   background-position: center;
 }
 
+p {
+  font-family: 'Montserrat';
+}
+
 .header p {
-  font-family: sans-serif;
   margin-left: 2%;
   color: #484848;
 }
@@ -45,12 +59,11 @@ p {
 
 .header .description {
   font-size: 17px;
-  margin-right: 45%;
+  margin-right: 40%;
   margin-bottom: 25px;
 }
 
 .subheader p{
-  font-family: sans-serif;
   margin-left: 2%;
   margin-right: 55%;
   color: #484848;
@@ -64,8 +77,22 @@ p {
 .subheader .description {
   font-size: 14px;
   margin-bottom: 25px;
-  margin-right: 60%;
+  margin-right: 55%;
   margin-bottom: 25px;
+}
+
+.content {
+  width: calc(100% - 4px);
+}
+
+.container {
+  margin-bottom: 10px;
+  margin-right: 2%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .card {
@@ -73,14 +100,13 @@ p {
 }
 
 .card  img {
-  width: 150px;
+  width: 204px;
   height: auto;
-  border-radius: 5px;
+  border-radius: 3px;
   margin-bottom: 2px;
 }
 
 .card p {
-  font-family: sans-serif;
   font-weight: lighter;
   font-size: 15px;
   color: #484848;
@@ -97,7 +123,7 @@ p {
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 2px;
-  margin-right: 85%;
+  margin-right: 5%;
 }
 
 .card .price {
@@ -125,4 +151,25 @@ p {
   margin-bottom: 50px;
   font-weight: bold;
   margin-left: 2%;
+}
+
+i {
+  color: #00A699;
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+.containerimage {
+  position: relative
+}
+
+.heart {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.heart i {
+  color: white;
+  font-size: 20px;
 }
